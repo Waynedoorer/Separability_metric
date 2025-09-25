@@ -71,5 +71,5 @@ Benchmark Metrics Comparison
 These figures summarize the Tao Index results alongside baseline metrics for the SECOM and SPF benchmarks.
 The Tao Index consistently aligns with the estimated ground truth of dataset separability, outperforming other indices in robustness and interpretability.
 
-<img src="Plots/separability_scores.png" alt="Separability Scores" width="600"/>
-<img src="Plots/mse_performance.png" alt="Benchmark Metrics" width="600"/>
+<img src="Plots/separability_scores.pdf" alt="Separability Scores" width="600"/>
+<img src="Plots/mse_performance.pdf" alt="Performance" width="600"/>
