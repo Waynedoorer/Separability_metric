@@ -38,18 +38,16 @@ python experiments/spf_multiclass_eval.py
 
 Load the dataset
 
-Evaluate the separability score and output results in the console
+Evaluate the separability score and output results in the console.
 
 ## Using Tao Index Components
 
 You can use the metric directly for custom datasets:
+from src import tao_score
+score = tao_score(X, y)
 
 
-
-Results
-Separability Scores
-
-Performance
+## Results
 
 These figures display the choice of regressor for the separability score calculation for a specific training set (TEP dataset), summarizing the Tao Index results alongside baseline metrics for the SECOM and SPF benchmarks.
 
