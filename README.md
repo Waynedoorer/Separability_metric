@@ -20,17 +20,7 @@ The Tao Index integrates **local/topological-style features** (distance, density
 
 ---
 
-## Repository Structure
-Separability_metric/
-├── src/tao_index/ # Core metric implementation
-├── experiments/ # Benchmark experiment scripts
-│ ├── secom_binary_eval.py
-│ ├── spf_multiclass_eval.py
-├── Plots/ # Saved figures from experiments
-├── requirements.txt # Dependencies
-└── README.md
-
-2. Running Experiments
+## Running Experiments
 
 Run benchmark experiments directly from the experiments/ folder:
 
@@ -44,17 +34,13 @@ SPF (Steel Plate Faults, multi-class classification):
 python experiments/spf_multiclass_eval.py
 
 
-Each script will:
+#Each script will:
 
 Load the dataset
 
-Train a classifier with predefined “best” parameters
+Evaluate the separability score and output results in the console
 
-Compute ROC-AUC, PR-AUC, F1 score, and Accuracy
-
-Output results in the console
-
-3. Using Tao Index Components
+## Using Tao Index Components
 
 You can import the metric directly for custom datasets:
 
