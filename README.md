@@ -42,20 +42,16 @@ Evaluate the separability score and output results in the console
 
 ## Using Tao Index Components
 
-You can import the metric directly for custom datasets:
+You can use the metric directly for custom datasets:
 
-from src.tao_index.components import compute_tao_index
 
-score = compute_tao_index(X, y)  # X: features, y: labels
-print("Separability Score:", score)
 
 Results
-Benchmark Separability Scores
+Separability Scores
 
-Benchmark Metrics Comparison
+Performance
 
-These figures summarize the Tao Index results alongside baseline metrics for the SECOM and SPF benchmarks.
-The Tao Index consistently aligns with the estimated ground truth of dataset separability, outperforming other indices in robustness and interpretability.
+These figures display the choice of regressor for the separability score calculation for a specific training set (TEP dataset), summarizing the Tao Index results alongside baseline metrics for the SECOM and SPF benchmarks.
 
 <img src="Plots/separability_scores.pdf" alt="Separability Scores" width="600"/>
 <img src="Plots/mse_performance.pdf" alt="Performance" width="600"/>
