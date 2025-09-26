@@ -34,22 +34,26 @@ SPF (Steel Plate Faults, multi-class classification):
 python experiments/spf_multiclass_eval.py
 
 
-#Each script will:
+Each script will:
 
 Load the dataset
 
-Evaluate the separability score and output results in the console
+Evaluate the separability score and output results in the console.
 
-## Using Tao Index Components
+## Using Tao Index directly
 
 You can use the metric directly for custom datasets:
 
+from src import tao_score
+score = tao_score(X, y)
 
+## Retaining the Framework for Other Domains
 
-Results
-Separability Scores
+You can use the framework for other domains/datasets by retraining the regressor for the target domain's separability score evaluation. 
 
-Performance
+You can follow a similar procedure in src/tao_index.py, where you prepare the training data and train the regressor.
+
+## Results
 
 These figures display the choice of regressor for the separability score calculation for a specific training set (TEP dataset), summarizing the Tao Index results alongside baseline metrics for the SECOM and SPF benchmarks.
 
