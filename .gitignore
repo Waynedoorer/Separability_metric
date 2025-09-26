@@ -205,3 +205,7 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Ignore large tep files in Data folder
+src/Data/TEP_FaultFree_Training.csv.csv
+src/Data/TEP_Faulty_Training.csv

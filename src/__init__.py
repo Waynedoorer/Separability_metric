@@ -1,7 +1,6 @@
-from . import components
-from . import models
-from . import tao_index
-from .api import tao_score
+from src import components
+from src import models
+from src.api import tao_score
 
 """
 tao_index: data separability framework training pipeline
@@ -14,7 +13,6 @@ api: expose high level api usage to easily calculate separability score for cust
 __all__ = [
     "components",
     "models",
-    "tao_index",
     "__version__",
     "tao_score"
 ]
