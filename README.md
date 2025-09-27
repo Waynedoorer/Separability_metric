@@ -16,7 +16,7 @@ The Tao Index integrates **local/topological-style features** (distance, density
   - **SECOM (binary classification)**  
   - **SPF (Steel Plate Faults, multi-class)**  
 
-> ⚠️ Proprietary datasets (Cevher, Nissan, Cold Roll) and related code are **not included** for confidentiality reasons.
+> ⚠️ Proprietary datasets (Cevher, Nissan, Cold Roll) and related code are **not included** for confidentiality reasons. The Tep dataset for training the framework is not included because it is too large to be uploaded to Github, and it is available at [Tep dataset](https://www.kaggle.com/datasets/averkij/tennessee-eastman-process-simulation-dataset)
 
 ---
 
